@@ -1,10 +1,10 @@
 var rectangle = $('#rectangle')
 $('#button1').click(function(){
-  rWidth = rectangle.width();
-  if (rWidth + 10 >= 100) {
-    rectangle.css('width', '30px')
+  rHeight = rectangle.height();
+  if (rHeight + 10 >= 100) {
+    rectangle.css('height', '40px')
   }else{
-    rectangle.css('width', rWidth + 10 + 'px');
+    rectangle.css('height', rHeight + 10 + 'px');
 }
 })
 $('#button2').click(function(){
